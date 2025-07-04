@@ -5,7 +5,7 @@ import {
   DialogTitle, Box, Snackbar, Alert, Select, MenuItem, InputLabel, FormControl
 } from "@mui/material";
 
-const API_URL = "https://[your-vercel-domain]/api"; // 실제 배포 주소로 변경
+const API_URL = "https://exercise-app-backend-beryl.vercel.app/api"; // 실제 배포 주소로 변경
 
 function App() {
   const [users, setUsers] = useState([]);
